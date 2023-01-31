@@ -1,2 +1,10 @@
 booking:
   property: Product Profile Dev
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/productdb
+
+app:
+  testProp: test prop
