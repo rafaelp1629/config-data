@@ -7,10 +7,8 @@ spring:
     show-sql: true
   hibernate:
     ddl-auto:update
-
-
-datasource:
-  url: jdbc:mysql://localhost:3306/bookingdb
-  username: root
-  password: mypassword
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookingdb
+    username: root
+    password: mypassword
 
