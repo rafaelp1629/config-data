@@ -1,0 +1,16 @@
+booking:
+  property: Booking Profile Dev
+
+spring:
+  jpa:
+    generate-ddl: true
+    show-sql: true
+  hibernate:
+    ddl-auto:update
+
+
+datasource:
+  url: jdbc:mysql://localhost:3306/bookingdb
+  username: root
+  password: mypassword
+
