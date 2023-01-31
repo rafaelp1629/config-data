@@ -7,4 +7,4 @@ spring:
       uri: mongodb://localhost:27017/productdb
 
 app:
-  testProp: "test prop"
+  testProp: "test prop updated"
